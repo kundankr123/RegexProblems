@@ -8,17 +8,17 @@
 
             Patternmatch pattern = new Patternmatch();
 
-            Console.WriteLine("Enter your phone number: ");
+            Console.WriteLine("Enter your password: ");
             string name = Console.ReadLine();
             bool val = pattern.validate(name);
 
             if (val)
             {
-                Console.WriteLine("Valid phone number.");
+                Console.WriteLine("Valid password.");
             }
             else
             {
-                Console.WriteLine("Invalid phone number.");
+                Console.WriteLine("Invalid password.");
             }
         }
     }
