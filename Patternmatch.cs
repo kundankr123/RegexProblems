@@ -9,7 +9,7 @@ namespace RegexPrograms
 {
     public class Patternmatch
     {
-        public static string REGEX_PIN = "^(?=.*[A-Z])(?=.*\\d).{8,}$";
+        public static string REGEX_PIN = "^(?=.*[A-Z])(?=.*\\d)(?=.*[@#$%^&+=]){1}.{8,}$";
 
         public bool validate(string name)
         {
